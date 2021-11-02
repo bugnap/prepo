@@ -1,2 +1,4 @@
 echo "test"
-echo $1 + $2
+NUMBER=$(($NUMBERONE + $NUMBERTWO))
+echo "$NUMBER"
+echo "This was added"
